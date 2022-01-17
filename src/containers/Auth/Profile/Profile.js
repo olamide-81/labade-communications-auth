@@ -103,10 +103,10 @@ const Profile = ({
       >
         {({ isSubmitting, isValid }) => (
           <FormWrapper>
-            <Heading noMargin size="h1" color="white">
+            <Heading noMargin size="h1" color="black">
               Edit your profile
             </Heading>
-            <Heading bold size="h4" color="white">
+            <Heading bold size="h4" color="black">
               Here you can edit your profile
             </Heading>
             <StyledForm>

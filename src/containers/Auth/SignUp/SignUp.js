@@ -61,10 +61,10 @@ const SignUp = ({ signUp, loading, error, cleanUp }) => {
     >
       {({ isSubmitting, isValid }) => (
         <FormWrapper>
-          <Heading noMargin size="h1" color="white">
+          <Heading noMargin size="h1" color="black">
             Sign up for an account
           </Heading>
-          <Heading bold size="h4" color="white">
+          <Heading bold size="h4" color="black">
             Fill in your details to register your new account
           </Heading>
           <StyledForm>

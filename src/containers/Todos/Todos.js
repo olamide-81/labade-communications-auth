@@ -48,7 +48,7 @@ const Todos = ({ todos, requested, userId }) => {
     content = (
       <Content>
         <Heading color="white" size="h2">
-          You have no todos!
+        The dashboard and other services will be here !
         </Heading>
       </Content>
     );
@@ -56,7 +56,7 @@ const Todos = ({ todos, requested, userId }) => {
     content = (
       <Content>
         <Heading color="white" size="h2">
-          You have no todos!
+        The dashboard and other services will be here !
         </Heading>
       </Content>
     );
@@ -78,13 +78,13 @@ const Todos = ({ todos, requested, userId }) => {
       <Container>
         <InnerWrapper>
           <Heading noMargin size="h1" color="white">
-            Your Todos
+        Dashboard
           </Heading>
           <Heading bold size="h4" color="white">
-            All you have to do for now...
+          This project is still under construction by olamide.developer and his team
           </Heading>
-          <Button color="main" contain onClick={() => setIsAdding(true)}>
-            Add Todo
+          <Button color="main" contain >
+            Coming Soon !
           </Button>
           <InputTodo opened={isAdding} close={() => setIsAdding(false)} />
           {content}

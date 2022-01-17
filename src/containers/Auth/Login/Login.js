@@ -47,10 +47,10 @@ const Login = ({ login, loading, error, cleanUp }) => {
     >
       {({ isSubmitting, isValid }) => (
         <FormWrapper>
-          <Heading noMargin size="h1" color="white">
+          <Heading noMargin size="h1" color="black">
             Login into your account
           </Heading>
-          <Heading bold size="h4" color="white">
+          <Heading bold size="h4" color="black">
             Fill in your details to login into your account
           </Heading>
           <StyledForm>
@@ -73,8 +73,11 @@ const Login = ({ login, loading, error, cleanUp }) => {
             >
               Login
             </Button>
-            <CustomLink link="/recover" color="white">
+            <CustomLink link="/recover" color="black">
               Forgot your password?
+            </CustomLink>
+            <CustomLink link="/signup" color="black">
+              Dont have an Account? sign up now
             </CustomLink>
             <MessageWrapper>
               <Message error show={error}>

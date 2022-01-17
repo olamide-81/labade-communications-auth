@@ -42,10 +42,10 @@ const RecoverPassword = ({ error, loading, sendEmail, cleanUp }) => {
     >
       {({ isSubmitting, isValid }) => (
         <FormWrapper>
-          <Heading noMargin size="h1" color="white">
+          <Heading noMargin size="h1" color="black">
             Recover your password
           </Heading>
-          <Heading size="h4" bold color="white">
+          <Heading size="h4" bold color="black">
             Type in your e-mail to recover your password
           </Heading>
           <StyledForm>
